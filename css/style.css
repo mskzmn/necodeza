@@ -166,19 +166,6 @@ body{
     margin-top: 150px;
 }
 
-.neco-f{
-    border-bottom: solid 1px #674e47;
-    width: 454px;
-    margin-bottom: 97px;
-    margin-top: -20px;
-}
-
-.bunsyou-top{
-    width: 454px;
-    margin-bottom: 97px;
-    margin-top: -20px;
-}
-
 .bunsyou-main{
     margin-bottom: 97px;
     line-height: 1.875;
@@ -186,10 +173,6 @@ body{
 
 .sp-kaigyou{
     display: none;
-}
-
-.bunsyou-bottom{
-    width: 454px;  
 }
 
 .neco-s img{
