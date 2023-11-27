@@ -428,38 +428,39 @@ padding-top: 50px;
 
 /* スライド */
 
+.slide-bun {
+    align-items: center; /* 横線を上下中央 */
+    display: flex; /* 文字と横線を横並び */
+    text-align: center;
+  }
+
 .slide-bun::before,
 .slide-bun::after {
-  background-color: #674e47; /* 横線の色 */
-  content: "";
-  flex-grow: 1; /* 横幅いっぱい */
-  height: 1px; /* 横線の高さ */
+    background-color: #674e47; /* 横線の色 */
+    border-radius: 5px; /* 横線の両端を丸く */
+    content: "";
+    flex-grow: 1; /* 横幅いっぱい */
+    height: 5px; /* 横線の高さ */
 }
 .slide-bun::before {
-  margin-right: 15px; /* 文字との余白 */
+    margin-right: 15px; /* 文字との余白 */
 }
 .slide-bun::after {
-  margin-left: 15px; /* 文字との余白 */
+    margin-left: 15px; /* 文字との余白 */
 }
-/* レイアウトのためのcss */
+  /* レイアウトのためのcss */
 h2 {
-  color: #333;
-  font-size: 20px;
-  font-weight: 700;
-  padding-bottom: 20px;
-  padding-top: 20px;
+    color: #674e47;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .slide {
-  background-color: #fff;
-  margin-inline: auto;
-  width: 90%;
-  margin-top: 41px;
-  padding-bottom: 50px;
-}
-
-.slide-bun{
-    align-items: center;
-    display: flex;
+    background-color: #d6ffff;
+    margin-inline: auto;
+    margin-top: 60px;
+    width: 90%;
 }
 
 /* フォト */
