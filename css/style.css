@@ -436,7 +436,7 @@ padding-top: 50px;
 
 .slide-bun::before,
 .slide-bun::after {
-    background-color: #674e47; /* 横線の色 */
+    background-color: #918580; /* 横線の色 */
     border-radius: 5px; /* 横線の両端を丸く */
     content: "";
     flex-grow: 1; /* 横幅いっぱい */
@@ -450,7 +450,7 @@ padding-top: 50px;
 }
   /* レイアウトのためのcss */
 h2 {
-    color: #674e47;
+    color: #918580;
     font-size: 14px;
     padding-bottom: 20px;
     padding-top: 20px;
