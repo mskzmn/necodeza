@@ -1627,7 +1627,7 @@ input[type="text"]:focus{
         display: none;
     }
 
-    .sp-loader{
+    /* .sp-loader{
         display: block;
         background: #fff;
         width: 100%;
@@ -1641,6 +1641,11 @@ input[type="text"]:focus{
     .sp-loader img{
         height: 100%;
         object-fit: cover;
+    } */
+
+    .sp-loader{
+        object-fit: cover;
+        width: 100%;
     }
 
     
