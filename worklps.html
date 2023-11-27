@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>neco to design</title>
+    <meta name="description" content="portfolio">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="illust/favicon.ico" id="favicon">
+</head>
+
+<body>
+
+    <section class="top" id="top">
+        <p><a href="index.html"><img src="illust/mudai23.png" alt="ロゴ"></a></p>
+        <nav class="pc-navi">
+            <ul>
+                <li><a href="about.html"><span>A</span>BOUT</a></li>
+                <li><a href="index.html#service"><span>S</span>ERVICE</a></li>
+                <li><a href="work.html"><span>W</span>ORK</a></li>
+                <li><a href="photo.html"><span>P</span>HOTO</a></li>
+                <li><a href="contact.html"><span>C</span>ONTACT</a></li>
+            </ul>
+        </nav>
+    </section>
+    <div class="work-mockup">
+        <p><img src="mockup/lp01w.jpg" alt="lp"></p>
+    </div>
+    <div class="sakuhin-syousai">
+        <h1>コワーキングスペースLP</h1>
+    </div>
+    <div class="hamburger"><span></span></div>
+    <nav class="sp-navi">
+        <ul>
+            <li><a href="about.html"><span>A</span>BOUT</a></li>
+            <li><a href="index.html#service"><span>S</span>ERVICE</a></li>
+            <li><a href="work.html"><span>W</span>ORK</a></li>
+            <li><a href="photo.html"><span>P</span>HOTO</a></li>
+            <li><a href="contact.html"><span>C</span>ONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="gaiyou">
+        <dl>
+            <dt>● カテゴリ</dt>
+            <dd>ランディングページ</dd>
+            <dt>● 使用ツール</dt>
+            <dd>photoshop / illustrator</dd>
+            <dt>● 担当箇所</dt>
+            <dd>デザイン</dd>
+            <dt>● 制作期間</dt>
+            <dd>１週間</dd>
+            <dt>● 費用</dt>
+            <dd>¥50,000〜</dd>
+            <dt>● point</dt>
+            <dd>元気の出る黄色をベースカラーに使用し、補色に相性のいい青色をメインカラーに選びました。<br>
+                イラストをたくさん使用することでサイトの内容がわかりやすく、利用したくなるよう表現しています。</dd>
+        </dl>
+    </div>
+    <div class="gazou-kakudai">
+        <p class="pc-kakudai"><img src="mockup/lp01pcall.jpg" alt="lp"></p>
+        <p class="sp-kakudai"><img src="mockup/lp01spall.jpg" alt="lp"></p>
+    </div>
+    <div class="footer-frame">
+        <ul>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="index.html#service"><span>S</span>ERVICE</a></li>
+            <li><a href="work.html">WORK</a></li>
+            <li><a href="photo.html">PHOTO</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <div class="sns-icon">
+            <p><a href="http://instagram.com/neco_to_design"><img src="illust/mudai42.png" alt="インスタグラム"></a></p>
+            <p><a href="https://www.threads.net/@neco_to_design"><img src="illust/mudai49.png" alt="スレッズ"></a></p>
+        </div>
+        <p class="copyright">©️ neco to design</p>
+        <p class="to-top">
+            <a href="#top"><img src="illust/mudai77.png" alt="トップへ"></a>
+        </p>
+    </div>
+
+
+    <script>
+        $(function () {
+
+            $('.hamburger,.sp-navi').on('click', function () {
+                $('.sp-navi').fadeToggle();
+                $('.hamburger').toggleClass('open')
+            });
+        });
+
+        // フォント
+
+        (function (d) {
+            var config = {
+                kitId: 'bti5bpl',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1648 @@
+@charset "utf-8";
+
+/* リセット */
+html,
+body,
+header,
+footer,
+main,
+section,
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+    line-height: 1.75;
+    color: #776e6b;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 400;
+    font-feature-settings: "palt";
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: none;
+}
+
+
+body{
+    color: #776e6b;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: fot-tsukuardgothic-std, 'sans-serif';
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* TP body内 */
+
+/* メインビジュアル */
+
+.sp-main-visual{
+    display: none;
+}
+
+.topphoto{
+    position: relative;
+}
+
+.topphoto img{
+    width: 100%;
+}
+
+.gazou-f img{
+    width: 38%;
+    position:absolute;
+    left: 10px;
+    top: 20%;
+}
+
+.gazou-s img{
+    width: 38%;
+    position: absolute;
+    right: 10px;
+    top: 17%;
+}
+
+.logo{
+    width: 20vw;
+    position: absolute;
+    left: 39%;
+    top: 25%;
+}
+
+.scroll{
+    position: absolute;
+    left: 47.8%;
+    bottom: 26%;
+}
+
+.scroll-foot{
+    font-size: 16px;
+    width: 5%;
+    text-align: center;
+    position: absolute;
+    left: 46.5%;
+    bottom: 14%;
+}
+
+/* ナビメニュー */
+
+.nav-menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+
+.nav-menu ul li img{
+    width: 200px;
+}
+
+.sp-navi{
+    display: none;
+}
+
+.hamburger{
+    display: none;
+}
+
+/* メッセージ */
+
+.bunsyou{
+    text-align: center;
+    position: relative;
+}
+
+.sousyoku{
+    width: 25vw;
+    position: absolute;
+    top: 0px;
+    left: 70px;
+}
+
+.sousyoku-s{
+    width: 25vw;
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+}
+
+.neco-f img{
+    width: 123px;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+.bunsyou-top{
+    width: 454px;
+    margin-bottom: 97px;
+    margin-top: -20px;
+}
+
+.bunsyou-main{
+    margin-bottom: 97px;
+    line-height: 1.875;
+}
+
+.sp-kaigyou{
+    display: none;
+}
+
+.bunsyou-bottom{
+    width: 454px;  
+}
+
+.neco-s img{
+    width: 156px;
+    margin-top: -40px;
+    margin-right: 250px;
+}
+
+/* 自己紹介 */
+
+.about{
+    position: relative;
+}
+
+.sp-about{
+    display: none;
+}
+
+.sousyoku-a img{
+    width: 10vw;
+    position: absolute;
+    right: 150px;
+}
+
+.about-all{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 180px;
+    margin-bottom: 250px;
+    justify-content: space-between;
+}
+
+.about-circle{
+    width: 30%;
+}
+
+.name{
+    margin: 0 0 30px 10px;
+    font-weight: 700;
+}
+
+.syoukai{
+width: 65%;
+padding-top: 50px;
+}
+
+.syoukaibun{
+    line-height: 1.875;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* 矢印 */
+
+.more-link{
+    max-width: 1000px;
+}
+
+.more{
+    text-align: right;
+    padding-right: 50px;
+    position: relative;
+}
+
+.more::after{
+    content: "";
+    width: 150px;
+    height: 15px;
+    border-bottom: solid 1px;
+    border-right: solid 1px;
+    transform: skew(45deg);
+    display: block;
+    position: absolute;
+    right: 10px;
+}
+
+.more-link-s{
+    max-width: 1200px;
+}
+
+.more-s{
+    text-align: right;
+    padding-right: 50px;
+    position: relative;
+}
+
+.more-s::after{
+    content: "";
+    width: 150px;
+    height: 15px;
+    border-bottom: solid 1px;
+    border-right: solid 1px;
+    transform: skew(45deg);
+    display: block;
+    position: absolute;
+    right: 10px;
+}
+
+/* タイトル */
+
+.border-clear{
+    border: solid 1px #afa6a5;
+    height: 60px;
+    width: 81.50vw;
+    margin-left: 0px;
+    margin-bottom: -50px;
+}
+
+.border-square span{
+    font-size: 20px;
+    font-family: "skia";
+    letter-spacing: 5px;
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+}
+
+.border-square{
+    background-color: #ccc4c2;
+    height: 60px;
+    max-width: 80.52vw;
+    margin-left: 0;
+    position: relative;
+}
+
+/* サービス */
+
+.service{
+    margin-bottom: 500px;
+    position: relative;
+}
+
+.service-title{
+    margin-left: 0;
+    animation: service-title 3s infinite;
+}
+
+.fadeIn {
+    transform: translate3d(0, 50px, 0);
+    transition: 1s;
+    opacity: 0;
+}
+
+.fadeIn.animated {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+
+.service-frame{
+    border: solid 1px #afa6a5;
+    height: 1000px;
+    width: 73.20vw;
+    position: relative;
+    margin: -150px auto;
+
+}
+
+.skill-all{
+    margin: 0 auto;
+    margin-left: 0px;
+    width: 81.11vw;
+}
+
+.ushiro img{
+    width: 18.30vw;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.skill{
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.skill ul {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.skill ul li{
+    padding: 30px;
+    width: 15vw;
+}
+.skill ul li img{
+    width: 13vw;
+    text-align: center;
+}
+
+.skill-title{
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.skill-setumei{
+    margin-top: 28px;
+    line-height: 1.714;
+    font-size: 14px;
+    text-align: left;
+}
+
+.service-sousyoku img{
+    width: 16.10vw;
+    position: absolute;
+    bottom: -71px;
+    left: 65px;
+}
+
+.sp-skill{
+    display: none;
+}
+
+/* ワーク */
+
+.sleep{
+    position: relative;
+}
+
+.sleep img{
+    width: 180px;
+    margin-bottom: -8px;
+    position: absolute;
+    bottom: 0;
+    right: 280px;
+}
+
+.work{
+    position: relative;
+}
+
+.mockup ul{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    vertical-align: middle;
+}
+
+.mockup ul li img{
+    width: 30vw;
+}
+
+/* スライド */
+
+.slide{
+    margin-top: 41px;
+    padding-bottom: 50px;
+}
+
+.slide p{
+    text-align: center;
+    padding: 10px 0 0 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 50;
+}
+
+.haikei{
+    width: 50px;
+    height: 30px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+    z-index: 15;
+}
+
+.slide hr{
+    border: solid 1px #afa6a5;
+    margin-top: -10px;
+    z-index: 10;
+}
+
+/* フォト */
+
+.shippo{
+    position: relative;
+    margin-top: 200px;
+}
+
+.shippo img{
+    width: 13vw;
+    padding-left: 100px;
+}
+
+.shippo-s img{
+    width: 36.60vw;
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+}
+
+.photo{
+    margin-top: 50px;
+}
+
+.shashin{
+    display: flex;
+    margin-top: 100px;
+}
+
+.shashin p {
+    width: 313px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* フッター */
+
+.footer-illust img{
+    width: 200px;
+    margin-top: 200px;
+}
+
+.footer-frame{
+    background-color: #afa5a3;
+    margin: 0 auto;
+    
+    position: relative;
+}
+
+.footer-frame ul{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-frame ul li{
+    margin-top: 88px;
+    font-family: "skia";
+}
+
+.sns-icon{
+    display: flex;
+    width: 110px;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+.sns-icon img{
+    width: 30px;
+    padding: 0 11px;
+    margin: 0 auto;
+}
+
+.copyright{
+    text-align: center;
+    padding: 25px 0 116px 0;
+}
+
+/* トップへ */
+
+.to-top{
+    position: fixed;
+    bottom: 65px;
+    right: 65px;
+    width: 148px;
+    display: none;
+}
+
+@media (min-height:800px){
+    body:target .to-top{
+        display: block;
+    }    
+}
+
+
+
+
+/* アバウトbody内 */
+
+/* 最上部 */
+
+.top{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.top p img{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 5vw;
+}
+
+.top ul{
+    display: flex;
+    width: 76.35vw;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 70px;
+    border: solid 1px #918580;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.top ul span{
+    color: #674e47;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+
+.top ul li{
+    margin: auto;
+    padding: 5px;
+    font-family: "skia";
+}
+
+/* メインビジュアル */
+
+.about-illust{
+    position: relative;
+}
+
+.about-illust img{
+    width: 100%;
+}
+
+.me{
+    max-width: 1000px;
+    writing-mode: vertical-rl;
+    font-size: 30px;
+    position: absolute;
+    top:10%;
+    left: 44%;
+}
+
+/* 自己紹介 */
+
+.syoukai-line{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 185px;
+}
+
+.name-a{
+    margin-bottom: 30px;
+}
+
+.syoukai-a{
+    width: 60%;
+    padding-top: 50px;
+    line-height: 1.75;
+}
+
+.about-circle-a{
+    width: 35%;
+    padding-top: 10px;
+}
+
+.about-all-a{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 180px;
+    margin-bottom: 150px;
+    justify-content: space-between;
+}
+
+/* 好きなもの */
+
+.love-like{
+    display: flex;
+    justify-content: center;
+    padding-right: 150px;
+}
+
+.love img{
+    width: 2vw;
+}
+
+.like{
+    width: 300px;
+    padding-top: 12px;
+    padding-left: 13px;
+}
+
+.like-list p{
+    margin-top: 25px;
+    text-align: center;
+    line-height: 3.93;
+}
+
+.sp-like-list{
+    display: none;
+}
+
+/* 猫のこと */
+
+.syoukai-cat{
+    margin-top: 150px;
+    position: relative;
+}
+
+.syoukai-cat ul{
+    display: flex;
+    justify-content: center;
+}
+
+.syoukai-cat ul li{
+    vertical-align: top;
+    width: 24.89vw;
+}
+
+.moff{
+    margin-left: 14.64%;
+}
+
+.wagako{
+    writing-mode: vertical-rl;
+    font-size: 20px;
+    position: absolute;
+    top: 29%;
+    right: 49.5%;
+}
+
+.name-charo{
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 0 67px 0;
+}
+
+.name-moff{
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 0 67px 0;
+}
+
+.cat-setumei{
+    line-height: 1.75;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.syoukai-line-s{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 117px;
+    margin-bottom: 290px;
+}
+
+/* フッター */
+
+.family img{
+    width: 300px;
+    margin-bottom: -2px;
+}
+
+
+/* ワークbody内 */
+
+/* 最上部 */
+
+.work-illust{
+    position: relative;
+}
+
+.work-illust img{
+    width: 100%;
+}
+
+.seisaku{
+    max-width: 1000px;
+    font-size: 30px;
+    position: absolute;
+    top: 80%;
+    left: 43%;
+}
+
+.work-list{
+    margin: 0 auto;
+    padding: 100px 0 100px;
+    max-width: 73.20%;
+}
+
+.work-list p{
+    font-size: 20px;
+    padding: 15px;
+}
+
+.mockup-w{
+    padding-bottom: 100px;
+}
+
+.mockup-gazou img{
+    width: 500px;
+    border: solid 1px #ddd7d3;
+    margin-left: 150px;
+}
+
+.mockup-gazou{
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 15%;
+    position: relative;
+}
+
+a{
+    color: #674e47;
+}
+
+.mockup-title{
+    margin-top: 15%;
+    width: 41.1vw;
+    height: 70px;
+    background-color: #c6beba;
+    position: absolute;
+    right: 0;
+}
+
+.sp-title{
+    display: none;
+}
+
+.m-logo img{
+    width: 300px;
+    padding: 50px 100px;
+}
+
+.mockup-title h2 {
+    font-size: 25px;
+    font-family: "skia";
+    letter-spacing: 5px;
+    color: #674e47;
+    position: absolute;
+    top: 31.25%;
+    left: 55px;
+}
+
+.no-gazou{
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 150px;
+    background-color: #ddd7d3;
+    position: relative;
+}
+
+.no-gazou p{
+    position: absolute;
+    bottom: 17%;
+    left: 17%;
+}
+
+
+/* ワーク詳細 */
+
+.work-mockup{
+    margin: 200px auto 200px;
+    width: 55.19vw;
+}
+
+.sakuhin-syousai{
+    margin: 0 auto 90px;
+    width: 250px;
+    border: solid 3px #674e47;
+    border-left: 0;
+    border-right: 0;
+}
+
+.sakuhin-syousai p{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.gaiyou{
+    margin-bottom: 300px;
+}
+
+.gaiyou dl{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.gaiyou dt{
+    width: 25%;
+    padding: 39px 70px;
+    border-bottom: 1px solid #d9d9d9;
+    box-sizing: border-box;
+}
+
+.gaiyou dd{
+    width: 75%;
+    padding: 39px 8px;
+    border-bottom: 1px solid #d9d9d9;
+    margin: 0;
+    line-height: 1.75;
+    box-sizing: border-box;
+}
+
+.gazou-kakudai{
+    margin: 0 auto 300px;
+    max-width: 1000px;
+    width: 65.88%;
+}
+
+.sp-kakudai{
+    display: none;
+}
+
+/* 写真body内 */
+
+.photo-illust{
+    position: relative;
+}
+
+.photo-illust img{
+    width: 100%;    
+}
+
+.shashinillust-title{
+    max-width: 1000px;
+    font-size: 30px;
+    writing-mode: vertical-rl;
+    position: absolute;
+    bottom: 10%;
+    right: 27%;
+}
+
+.click-gazou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.click-text{
+    padding-left: 20px;
+}
+.click-gazou img{
+    width: 200px;
+}
+
+.photo-ichiran{
+    margin-bottom: 300px;
+}
+
+.photo-ichiran-s{
+    display: flex;
+    justify-content: center;
+}
+
+.photo-waku{
+    border: solid 1px #674e47;
+    padding: 20px;
+    margin: 100px;
+}
+
+.photo-waku{
+    width: 350px;
+}
+
+.photo-waku img{
+    cursor: pointer;
+}
+
+/* コンタクト */
+
+.contact-messege{
+    text-align: center;
+}
+
+.c-messege-f{
+    font-family: 'skia';
+    font-size: 20px;
+    margin: 124px 0 83px;
+}
+
+.c-messege-s{
+    line-height: 1.75;
+}
+
+.contact-all{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input,textarea{
+    width: 100%;
+    border-radius: 8px;
+    border:none;
+    background-color: #ccc9c6;
+}
+
+input{
+    height: 30px;
+}
+
+textarea{
+    resize: none;
+    height: 200px;
+}
+
+.contact-koumoku{
+    max-width: 190px;
+    padding: 50px 0 20px;
+}
+
+.c-mark{
+    color: #e83463;
+    padding-left: 5px;
+}
+
+.c-btn{
+    width: 120px;
+    height: 40px;
+    margin: 100px auto;
+    display: grid;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    background-color: #afa5a3;
+    cursor: pointer;
+    box-shadow: 2px 5px 0 #7f7675;  
+    color: #fff; 
+    letter-spacing:10px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+/* サンクスページ */
+
+.thank-you{
+    text-align: center;
+    margin-top: 220px;
+    margin-bottom: 150px;
+}
+
+.kanryou{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 64px;
+    letter-spacing: 3px;
+}
+
+.kanryou-bun{
+    line-height: 1.75;
+}
+
+input[type="text"]:focus{
+    outline: #7f7675;
+}
+
+/* ローディング画面 */
+
+.sp-loader{
+    display: none;
+}
+
+.loader{
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.loader img{
+    height: 100%;
+    object-fit: cover;
+}
+
+/* モーダルウィンドウ */
+
+#lightbox .lb-container { padding: 2px; }
+
+/* 戻るボタン */
+
+.back{
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.back img{
+    width: 150px;
+}
+
+
+
+@media screen and (max-width:767px) {
+
+    
+
+    /* トップページ */
+
+    /* メインビジュアル */
+
+    .main-visual{
+        display: none;
+    }
+
+    .sp-main-visual{
+        display: block;
+    }
+
+    .sp-main{
+        position: relative;
+    }
+
+    .spmain-haikei img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .sp-mainlogo{
+        width: 47.46%;
+        position: absolute;
+        top: 36%;
+        left: 30%;
+    }
+
+    .sp-navi ul span{
+        color: #674e47;
+        font-size: 23px;
+        letter-spacing: 2px;
+    }
+
+    /* メッセージ */
+
+    .neco-f img{
+        margin-left: 200px;
+    }
+
+    .neco-s img {
+        width: 140px;
+        margin-top: -37px;
+        margin-right: 100px;
+    }
+
+    .bunsyou-top{
+        width: 315px;
+    }
+
+    .sp-kaigyou{
+        display: block;
+    }
+
+    .bunsyou-bottom{
+        width: 315px;
+    }
+
+    .bunsyou{
+        font-size: 14px;
+    }
+
+    .sousyoku{
+        width: 20vw;
+    }
+
+    .sousyoku-s{
+        width: 15vw;
+    }
+
+    /* アバウト */
+
+    .about{
+        display: none;
+    }
+
+    .about-all{
+        display: none;
+    }
+
+    .sp-about{
+        display: block;
+        margin: 200px 0;
+    }
+
+    .sp-name{
+        text-align: center;
+        padding: 45px 0;
+    }
+
+    .syoukaibun{
+        padding: 20px;
+    }
+
+    /* サービス */
+
+    .service{
+        margin-bottom: 250px;
+    }
+
+    .service-frame{
+        display: none;
+    }
+
+    .sp-skill{
+        display: block;
+        margin: 0 auto;
+        width: 255px;
+        padding-top: 20px;
+    }
+
+    .sp-skill ul li img{
+        width: 150px;
+        margin-left: 60px;
+        margin-top: 80px;
+    }
+
+    .skill-title{
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .service-sousyoku img{
+        display: none;
+    }
+
+    /* スライド */
+
+    .slide{
+        display: none;
+    }
+
+    /* 矢印 */
+
+    .more-s{
+        margin: 60px 100px 200px 0;
+
+    }
+
+    /* タイトル */
+
+    .border-clear{
+        height: 50px;
+        margin-bottom: -60px;
+    }
+    
+    .border-square{
+        height: 50px;
+    }
+
+    /* ワーク */
+
+    .sleep img{
+        display: none;
+    }
+
+    .mockup{
+        margin-top: 70px;
+    }
+
+    .ldp{
+        display: none;
+    }
+
+    .bunner img{
+        width: 100%;
+        padding: 0;
+    }
+
+    /* フォト */
+
+    .shippo-s{
+        display: none;
+    }
+
+    .shippo{
+        display: none;
+    }
+
+    .shashin {
+        margin-top: 70px;
+    }
+
+    .shashin-f{
+        display: none;
+    }
+
+    .shashin p{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* フッター */
+
+    .footer-illust img{
+        margin-top: 100px;
+    }
+
+    .footer-frame ul{
+        display: block;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .footer-frame ul li{
+        margin-top: 50px;
+    }
+
+    .sns-icon{
+        margin-top: 60px;
+    }
+
+    .to-top img{
+        width: 80px;
+        right: 30px;
+    }
+
+    /* アバウトページ */
+
+    .top p img{
+        width: 85px;
+        margin-top: 30px;
+    }
+
+    .about-illust{
+        padding: 30px 0;
+    }
+
+    .me{
+        font-size: 16px;
+        margin-top: -55px;
+    }
+
+    .syoukai-line img{
+        display: none;
+    }
+
+    .about{
+        display: block;
+    }
+
+    .about-all-a{
+        display: block;
+        max-width: 315px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-circle-a{
+        width: 100%;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .name-a{
+        text-align: center;
+    }
+
+    .syoukai-a{
+        width: 100%;
+    }
+
+    
+    .love img{
+        width: 30px;
+        padding-bottom: 55px;
+    }
+
+    .like{
+        width: 200px;
+        padding: 10px 0 0 0;
+    }
+
+    .love-like{
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .like-list p{
+        max-width: 375px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .sp-like-list{
+        display: block;
+        text-align: center;
+    }
+
+    .sp-like-list p{
+        line-height: 2.81;
+    }
+
+    .like-list{
+        display: none;
+    }
+
+    .wagako{
+        display: none;
+    }
+
+    .syoukai-cat ul{
+        display: block;
+    }
+
+    .syoukai-cat ul li{
+        width: 100%;
+    }
+
+    .cat-setumei{
+        margin: 0 60px;
+    }
+
+    .moff{
+        margin: 100px auto 0;
+    }
+
+    .syoukai-line-s{
+        display: none;
+    }
+
+    .family{
+        margin-top: 200px;
+    }
+
+    /* ワーク一覧ページ */
+
+    .seisaku {
+        top: 80%;
+        left: 34%;
+        font-size: 25px;
+    }
+
+    .mockup-gazou{
+        display: block;
+        padding: 30px 0;
+        position: relative;
+        margin-left: 0;
+    }
+
+    .mockup-gazou img{
+        width: 280px;
+        margin: 0 12.67%;
+    }
+
+    .mockup-title{
+        display: none;
+        width: 100%;
+        height: 90px;
+        position: absolute;
+        bottom: -40px;
+    }
+    .sp-title{
+        display: block;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .sp-title h2{
+        text-align: left;
+        margin-left: 12%;
+        font-family: 'skia';
+        letter-spacing: 1px;
+    }
+
+    .mockup-title p{
+        margin: 25px 0 0 -20px;
+    }
+
+    .mockup-logo img{
+        width: 50%;
+        margin: 0 26.66% 0 23.34%;
+        padding: 0 0 20px 0;
+    }
+
+    .no-gazou{
+        width: 280px;
+        height: 180px;
+        margin: 0 12.67%;
+    }
+
+    .m-logo img{
+        padding: 0;
+    }
+
+    /* ワーク詳細ページ */
+
+    .work-mockup{
+        
+        width: 84%;
+        margin: 0 auto 112px;
+    }
+    dl{
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    .gaiyou dt{
+        width: 33%;
+        padding: 22px 0;
+    }
+
+    .gaiyou dd{
+        width: 67%;
+        
+        padding: 60px 0 45px;
+    }
+
+    .gazou-kakudai{
+        width: 100%;
+    }
+
+    .pc-kakudai{
+        display: none;
+    }
+
+    .sp-kakudai{
+        display: block;
+        padding: 0 10px;
+    }
+
+    /* 写真ページ */
+
+    .shashinillust-title{
+        bottom: 1%;
+        right: 20%;
+        font-size: 25px;
+    }
+
+    .photo-ichiran-s{
+        display: block;
+    }
+
+    .photo-waku{
+        margin: 58px auto;
+        width: 70%;
+    }
+
+    .click-text{
+        padding-left: 10px;
+    }
+
+    /* コンタクトページ */
+
+    .contact-all{
+        max-width: 315px;
+    }
+
+    .waku-last{
+        height: 110px;
+    }
+
+    .c-messege-f{
+        margin-bottom: 55px;
+    }
+
+    /* ハンバーガーメニュー */
+
+    .pc-navi{
+        display: none;
+    }
+    
+    .hamburger{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+        height: 33px;
+        z-index: 9999;
+    }
+
+    .hamburger span{
+        background:#674e47;
+        width: 33px;
+        height: 3px;
+        display: block;
+        position: relative;
+        top: 10px;
+        z-index: 9000;
+    }
+
+    .hamburger span::before,
+    .hamburger span::after{
+        content: '';
+        background:#674e47;
+        width: 33px;
+        height: 3px;
+        display: block;
+        position: absolute;
+        transition: 0.3s;
+    }
+
+    .hamburger span::before{
+        top:10px
+    }
+
+    .hamburger span::after{
+        bottom:10px
+    }
+
+    .open span {
+        background: transparent;
+    }
+
+    .open span::before{
+        top: 0px;
+        transform: rotate(405deg);
+    }
+
+    .open span::after{
+        bottom: 0px;
+        transform: rotate(495deg);
+    }
+
+    .sp-navi{
+        height: 100vh;
+        background: #ddd7d3;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .sp-navi ul{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border: none;
+    }
+
+    .sp-navi ul li{
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+        padding: 20px 0;
+        font-family: "A1 Mincho", "游明朝", YuMincho, "Hiragino Mincho ProN W3",
+        "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
+        "ＭＳ 明朝", serif;
+    }
+
+    /* ローディング画面 */
+
+    .loader{
+        display: none;
+    }
+
+    .sp-loader{
+        display: block;
+        background: #fff;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+    
+    .sp-loader img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    
+}
