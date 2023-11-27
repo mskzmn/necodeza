@@ -433,6 +433,7 @@ padding-top: 50px;
     align-items: center; /* 横線を上下中央 */
     display: flex; /* 文字と横線を横並び */
     text-align: center;
+    font-weight: 400;
   }
 
 .slide-bun::before,
