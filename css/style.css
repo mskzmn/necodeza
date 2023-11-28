@@ -1503,7 +1503,7 @@ input[type="text"]:focus{
     }
 
     .sakuhin-syousai h1{
-        width: 200px;
+        padding: 20px 0;
         font-size: 25px;
     }
 
