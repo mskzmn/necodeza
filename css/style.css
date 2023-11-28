@@ -550,6 +550,7 @@ h2 {
 .copyright{
     text-align: center;
     padding: 25px 0 116px 0;
+    color: #674e47;
 }
 
 /* トップへ */
@@ -1463,7 +1464,7 @@ input[type="text"]:focus{
     .sp-title h2{
         text-align: left;
         margin-left: 12%;
-        font-family: 'skia';
+        font-size: 30px;
         letter-spacing: 1px;
         font-family: "amatic-sc", sans-serif;
         font-weight: 700;
@@ -1559,6 +1560,7 @@ input[type="text"]:focus{
 
     .c-messege-f{
         margin-bottom: 55px;
+        font-size: 30px;
     }
 
     /* ハンバーガーメニュー */
