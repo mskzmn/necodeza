@@ -972,7 +972,9 @@ a{
 }
 
 .c-messege-f{
-    font-family: 'skia';
+    font-family: "amatic-sc", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 20px;
     margin: 124px 0 83px;
 }
@@ -1640,9 +1642,9 @@ input[type="text"]:focus{
         text-align: center;
         margin: 0;
         padding: 20px 0;
-        font-family: "A1 Mincho", "游明朝", YuMincho, "Hiragino Mincho ProN W3",
-        "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
-        "ＭＳ 明朝", serif;
+        font-family: "amatic-sc", sans-serif;
+        font-weight: 700;
+        font-style: normal;
     }
 
     /* ローディング画面 */
