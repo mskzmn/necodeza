@@ -1018,7 +1018,7 @@ textarea{
 .c-btn{
     width: 120px;
     height: 40px;
-    margin: 100px auto 200px;
+    margin: 100px auto 50px;
     display: grid;
     align-items: center;
     border-radius: 30px;
@@ -1030,6 +1030,10 @@ textarea{
     letter-spacing:10px;
     text-align: center;
     padding-left: 20px;
+}
+
+.footer-illust-c{
+    width: 100px;
 }
 
 /* サンクスページ */
