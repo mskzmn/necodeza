@@ -434,8 +434,8 @@ padding-top: 50px;
 /* スライド */
 
 .slide-bun {
-    align-items: center; /* 横線を上下中央 */
-    display: flex; /* 文字と横線を横並び */
+    align-items: center;
+    display: flex;
     text-align: center;
     font-weight: 400;
   }
@@ -462,7 +462,7 @@ h2 {
 .slide {
     background-color: #ffff;
     margin-inline: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 90%;
     margin-bottom: 30px;
 }
