@@ -603,7 +603,9 @@ h2 {
 .top ul li{
     margin: auto;
     padding: 5px;
-    font-family: "skia";
+    font-family: "amatic-sc", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 /* メインビジュアル */
