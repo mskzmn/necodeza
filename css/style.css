@@ -848,7 +848,8 @@ a{
 
 .sakuhin-syousai{
     margin: 0 auto 90px;
-    width: 250px;
+    width: 300px;
+    padding: 15px 30px;
     border: solid 3px #674e47;
     border-left: 0;
     border-right: 0;
