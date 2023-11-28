@@ -1363,8 +1363,8 @@ input[type="text"]:focus{
     }
 
     .like{
-        width: 200px;
         padding: 10px 0 0 0;
+        margin-left: 5px;
     }
 
     .love-like{
