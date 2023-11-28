@@ -439,10 +439,9 @@ padding-top: 50px;
 .slide-bun::before,
 .slide-bun::after {
     background-color: #918580; /* 横線の色 */
-    border-radius: 5px; /* 横線の両端を丸く */
     content: "";
     flex-grow: 1; /* 横幅いっぱい */
-    height: 5px; /* 横線の高さ */
+    height: 1px; /* 横線の高さ */
 }
 .slide-bun::before {
     margin-right: 15px; /* 文字との余白 */
@@ -458,10 +457,11 @@ h2 {
     padding-top: 20px;
 }
 .slide {
-    background-color: #d6ffff;
+    background-color: #ffff;
     margin-inline: auto;
-    margin-top: 60px;
+    margin-top: 10px;
     width: 90%;
+    margin-bottom: 30px;
 }
 
 /* フォト */
