@@ -867,7 +867,7 @@ a{
     border-right: 0;
 }
 
-.sakuhin-syousai p{
+.sakuhin-syousai h1{
     font-size: 20px;
     text-align: center;
     padding: 15px;
@@ -1498,6 +1498,12 @@ input[type="text"]:focus{
         width: 84%;
         margin: 0 auto 112px;
     }
+
+    .sakuhin-syousai h1{
+        width: 200px;
+        font-size: 13px;
+    }
+
     dl{
         margin: 0 auto;
         padding: 0 40px;
