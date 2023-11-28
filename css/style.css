@@ -1236,6 +1236,10 @@ input[type="text"]:focus{
         height: 50px;
     }
 
+    .border-square span{
+        font-size: 25px;
+    }
+
     /* ワーク */
 
     .sleep img{
