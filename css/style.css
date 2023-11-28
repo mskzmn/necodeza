@@ -442,16 +442,16 @@ padding-top: 50px;
 
 .slide-bun::before,
 .slide-bun::after {
-    background-color: #918580; /* 横線の色 */
+    background-color: #918580;
     content: "";
-    flex-grow: 1; /* 横幅いっぱい */
-    height: 1px; /* 横線の高さ */
+    flex-grow: 1;
+    height: 1px;
 }
 .slide-bun::before {
-    margin-right: 15px; /* 文字との余白 */
+    margin-right: 15px;
 }
 .slide-bun::after {
-    margin-left: 15px; /* 文字との余白 */
+    margin-left: 15px;
 }
   /* レイアウトのためのcss */
 h2 {
@@ -664,11 +664,10 @@ h2 {
 
 .love img{
     width: 2vw;
+    margin-top: -10px;
 }
 
 .like{
-    width: 300px;
-    padding-top: 12px;
     padding-left: 13px;
 }
 
@@ -726,7 +725,7 @@ h2 {
 .cat-setumei{
     line-height: 1.75;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
 }
 
 .syoukai-line-s{
