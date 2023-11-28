@@ -1015,7 +1015,7 @@ textarea{
 .c-btn{
     width: 120px;
     height: 40px;
-    margin: 100px auto;
+    margin: 100px auto 200px;
     display: grid;
     align-items: center;
     border-radius: 30px;
