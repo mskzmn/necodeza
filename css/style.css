@@ -824,7 +824,9 @@ a{
 
 .mockup-title h2 {
     font-size: 25px;
-    font-family: "skia";
+    font-family: "amatic-sc", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     letter-spacing: 5px;
     color: #674e47;
     position: absolute;
