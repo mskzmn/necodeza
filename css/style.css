@@ -565,6 +565,10 @@ h2 {
 }
 
 .sp-to-top{
+    position: fixed;
+    bottom: 65px;
+    right: 65px;
+    width: 100px;
     display: none;
 }
 
@@ -576,6 +580,11 @@ h2 {
     }    
 }
 
+@media (min-height:750px){
+    body:target .sp-to-top{
+        display: block;
+    }    
+}
 
 
 
