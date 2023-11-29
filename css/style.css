@@ -862,13 +862,13 @@ a{
 /* ワーク詳細 */
 
 .work-mockup{
-    margin: 200px auto 50px;
+    margin: 200px auto 100px;
     width: 55.19vw;
 }
 
 .sakuhin-syousai{
     margin: 0 auto 90px;
-    width: 195px;
+    width: 227px;
     padding: 0 20px;
     border: solid 2px #674e47;
     border-left: 0;
