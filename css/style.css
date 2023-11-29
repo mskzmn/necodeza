@@ -1606,6 +1606,7 @@ input[type="text"]:focus{
     }
 
     .hamburger span{
+        border-radius: 20px;
         background:#674e47;
         width: 33px;
         height: 3px;
@@ -1624,6 +1625,7 @@ input[type="text"]:focus{
         display: block;
         position: absolute;
         transition: 0.3s;
+        border-radius: 20px;
     }
 
     .hamburger span::before{
