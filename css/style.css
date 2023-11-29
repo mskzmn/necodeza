@@ -1691,3 +1691,22 @@ input[type="text"]:focus{
 
     
 }
+
+@media screen and (min-width:1700px) {
+    
+    /* ワーク */
+
+    .sleep img{
+        right: 400px;
+    }
+
+    .mockup-title{
+        width: 55vw;
+    }
+
+    /* フッター */
+
+    .footer-frame ul{
+        max-width: 1000px;
+    }
+}
