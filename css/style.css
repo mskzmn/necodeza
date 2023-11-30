@@ -431,7 +431,7 @@ padding-top: 50px;
 }
 
 .mockup ul li img{
-    width: 30vw;
+    width: 100%;
 }
 
 /* スライド */
@@ -1241,10 +1241,6 @@ input[type="text"]:focus{
 
     .slide{
         display: none;
-    }
-
-    .pc-gazou{
-        width: 100%;
     }
 
     /* 矢印 */
