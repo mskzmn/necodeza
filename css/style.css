@@ -1243,6 +1243,10 @@ input[type="text"]:focus{
         display: none;
     }
 
+    .pc-gazou{
+        width: 100%;
+    }
+
     /* 矢印 */
 
     .more-s{
