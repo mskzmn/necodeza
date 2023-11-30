@@ -279,19 +279,6 @@
 
         // フォント
 
-        // 筑紫ゴシック
-
-        (function (d) {
-            var config = {
-                kitId: 'bti5bpl',
-                scriptTimeout: 3000,
-                async: true
-            },
-                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
-        })(document);
-
-        // Amatic
-
         (function (d) {
             var config = {
                 kitId: 'bti5bpl',
@@ -356,6 +343,7 @@
 
         // トップへボタン途中から表示
 
+        // pc版
 
         jQuery(function ($) {
             $(window).on('scroll', function () {
@@ -363,6 +351,18 @@
                     $('.to-top').fadeIn(400);
                 } else {
                     $('.to-top').fadeOut(400);
+                }
+            });
+        });
+
+        // スマホ版
+
+        jQuery(function ($) {
+            $(window).on('scroll', function () {
+                if ($(window).scrollTop() > 300) {
+                    $('.sp-to-top').fadeIn(400);
+                } else {
+                    $('.sp-to-top').fadeOut(400);
                 }
             });
         });

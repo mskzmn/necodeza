@@ -974,6 +974,11 @@ a{
     cursor: pointer;
 }
 
+.footer-illust-p{
+    width: 250px;
+    margin: 100px auto 0;
+}
+
 /* コンタクト */
 
 .contact-messege{
