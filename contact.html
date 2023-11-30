@@ -19,6 +19,9 @@
 
 <body>
 
+    <div class="loader"><img src="illust/mudai29.png" alt=""></div>
+    <div class="sp-loader"><img src="illust/mudai31.png" alt=""></div>
+
     <div class="top">
         <p><a href="index.html"><img src="illust/mudai23.png" alt="ロゴ"></a></p>
         <nav class="pc-navi">
@@ -103,6 +106,11 @@
                 $('.hamburger').toggleClass('open')
             });
         });
+
+        // ローディング画面
+
+        $(".loader").delay(1000).fadeOut(600);
+        $(".sp-loader").delay(1000).fadeOut(600);
 
         // フォント
 
