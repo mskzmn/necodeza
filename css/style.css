@@ -1337,6 +1337,10 @@ input[type="text"]:focus{
         display: none;
     }
 
+    .sp-top{
+        display: block;
+    }
+
     .sp-to-top {
         position: fixed;
         bottom: 65px;
