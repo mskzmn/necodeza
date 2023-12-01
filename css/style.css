@@ -1507,6 +1507,13 @@ input[type="text"]:focus{
         font-style: normal;
     }
 
+    .mockup-title span{
+        font-size: 14px;
+        font-family: "fot-tsukuardgothic-std", sans-serif,"dnp-shuei-mgothic-std", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
     .mockup-title p{
         margin: 25px 0 0 -20px;
     }
