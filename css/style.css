@@ -852,14 +852,15 @@ h2 {
 
 .mockup-gazou p span{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 37%;
+    left: 5%;
     opacity: 0;
+    writing-mode: vertical-rl;
 }
 
 .mockup-gazou p:hover span{
     opacity: 1;
-    color: #fff;
+    color: #595653;
 }
 
 .mockup-title span{
