@@ -823,15 +823,16 @@ h2 {
     top: 50%;
     transform: translate(-50%,-50%);
     transition: all .5s;
+    opacity: 0;
 }
 
-.mockup-gazou p span:nth-child(1){
+/* .mockup-gazou p span:nth-child(1){
     opacity: 0;
 }
 
 .mockup-gazou p:hover span:nth-child(2){
     opacity: 1;
-}
+} */
 
 .mockup-title{
     margin-top: 15%;
