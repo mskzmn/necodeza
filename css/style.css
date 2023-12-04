@@ -829,7 +829,7 @@ h2 {
     opacity: 0;
 }
 
-.mockup-gazou p:hover span:nth-child(1){
+.mockup-gazou p:hover span:nth-child(2){
     opacity: 1;
 }
 
