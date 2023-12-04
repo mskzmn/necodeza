@@ -808,17 +808,17 @@ h2 {
     margin-left: 15%;
 }
 
-.mockup-gazou p{
+.mockup-gazou a{
     position: relative;
     transition: all .2s;
 }
 
-.mockup-gazou p img:hover{
+.mockup-gazou a:hover{
     background: #7f7675;
     color: #fff;
 }
 
-.mockup-gazou p span{
+.mockup-gazou a span{
     position: absolute;
     left: 50%;
     top: 50%;
