@@ -1545,7 +1545,7 @@ input[type="text"]:focus{
     .sp-title h2{
         width: 280px;
         text-align: left;
-        margin-left: 0 auto;
+        margin: 0 auto;
         font-size: 30px;
         letter-spacing: 3px;
         font-family: "amatic-sc", sans-serif;
