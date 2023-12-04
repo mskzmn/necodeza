@@ -809,6 +809,24 @@ h2 {
     position: relative;
 }
 
+.mockup-gazou p img{
+    position: relative;
+    transition: all .2s;
+}
+
+.mockup-gazou p img:hover{
+    background: #7f7675;
+    color: #fff;
+}
+
+.mockup-gazou p span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all .5s;
+}
+
 a{
     color: #674e47;
 }
