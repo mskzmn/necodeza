@@ -799,26 +799,25 @@ h2 {
 .mockup-gazou img{
     width: 500px;
     border: solid 1px #ddd7d3;
-    margin-left: 300px;
 }
 
 .mockup-gazou{
     display: flex;
     margin-bottom: 100px;
-    margin-left: 15%;
+    margin-left: 20%;
 }
 
-.mockup-gazou a{
+.mockup-gazou p{
     position: relative;
     transition: all .2s;
 }
 
-.mockup-gazou a img:hover{
+.mockup-gazou p img:hover{
     background: #fff;
     color: #776e6b;
 }
 
-.mockup-gazou a span{
+.mockup-gazou p span{
     position: absolute;
     left: 50%;
     top: 20%;
@@ -826,11 +825,11 @@ h2 {
     transition: all .5s;
 }
 
-.mockup-gazou a span:nth-child(1){
+.mockup-gazou p span:nth-child(1){
     opacity: 0;
 }
 
-.mockup-gazou a:hover span:nth-child(1){
+.mockup-gazou p:hover span:nth-child(1){
     opacity: 1;
 }
 
