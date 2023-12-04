@@ -856,6 +856,7 @@ h2 {
     left: 5%;
     opacity: 0;
     writing-mode: vertical-rl;
+    font-feature-settings: initial;
 }
 
 .mockup-gazou p:hover span{
