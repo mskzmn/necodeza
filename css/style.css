@@ -838,7 +838,6 @@ h2 {
 
 .mockup-gazou p:hover{
     background: #C8BDB4;
-    color: #fff;
     opacity: 1;
 }
 
@@ -849,6 +848,15 @@ h2 {
     background-color: #c6beba;
     position: absolute;
     right: 0;
+}
+
+.mockup-gazou p{
+    opacity: 0;
+}
+
+.mockup-gazou p:hover span{
+    opacity: 1;
+    color: #fff;
 }
 
 .mockup-title span{
