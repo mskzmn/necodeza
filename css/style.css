@@ -114,12 +114,6 @@ body{
 }
 
 .scroll-foot{
-    /* font-size: 16px;
-    width: 5%;
-    text-align: center;
-    position: absolute;
-    left: 46.5%;
-    bottom: 14%; */
     width: 5%;
     text-align: center;
     position: absolute;
@@ -136,12 +130,12 @@ body{
         opacity: 0;
     }
     30%{
-        height: 30px;
+        height: 20px;
         opacity: 1;
     }
     100%{
         height: 0;
-        top: 50px;
+        top: 30px;
         opacity: 0;
     }
 }
