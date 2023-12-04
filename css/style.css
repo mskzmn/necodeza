@@ -809,7 +809,7 @@ h2 {
 
 .mockup-gazou p{
     position: relative;
-    transition: all .2s;
+    transition: all .1s;
 }
 
 .mockup-gazou p:hover{
