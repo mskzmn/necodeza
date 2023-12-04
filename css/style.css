@@ -797,9 +797,11 @@ h2 {
 }
 
 .mockup-gazou img{
+    position: relative;
     width: 500px;
     border: solid 1px #ddd7d3;
     margin-left: 150px;
+    transition: all .2s;
 }
 
 .mockup-gazou{
@@ -809,17 +811,12 @@ h2 {
     position: relative;
 }
 
-.mockup-gazou p img{
-    position: relative;
-    transition: all .2s;
-}
-
-.mockup-gazou p img:hover{
+.mockup-gazou img:hover{
     background: #7f7675;
     color: #fff;
 }
 
-.mockup-gazou p img span{
+.mockup-gazou img span{
     position: absolute;
     left: 50%;
     top: 50%;
