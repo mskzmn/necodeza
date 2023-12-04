@@ -815,6 +815,7 @@ h2 {
 .mockup-gazou p:hover{
     background: #afa5a3;
     color: #fff;
+    opacity: 1;
 }
 
 .mockup-gazou p span{
