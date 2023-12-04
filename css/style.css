@@ -812,7 +812,7 @@ h2 {
     transition: all .2s;
 }
 
-.mockup-gazou p img:hover{
+.mockup-gazou p:hover{
     background: #afa5a3;
     color: #fff;
 }
