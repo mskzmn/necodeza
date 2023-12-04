@@ -815,7 +815,7 @@ h2 {
     padding-bottom: 100px;
 }
 
-.ear img{
+.ear{
     width: 500px;
     margin-left: 20%;
 }
@@ -1518,9 +1518,9 @@ input[type="text"]:focus{
         margin-left: 0;
     }
 
-    .ear img{
+    .ear{
         width: 280px;
-        margin: 0 12.67%;
+        margin: 0 auto;
     }
 
     .mockup-gazou p{
@@ -1571,7 +1571,7 @@ input[type="text"]:focus{
     .no-gazou{
         width: 280px;
         height: 180px;
-        margin: 0 12.67%;
+        margin: 0 auto;
     }
 
     .m-logo img{
