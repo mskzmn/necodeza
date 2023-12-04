@@ -851,6 +851,9 @@ h2 {
 }
 
 .mockup-gazou p span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
     opacity: 0;
 }
 
