@@ -13,7 +13,7 @@ $(function () {
 
     jQuery(function ($) {
         $(window).on('scroll', function () {
-            if ($(window).scrollTop() > 300) {
+            if ($(window).scrollTop() > 600) {
                 $('.to-top').fadeIn(400);
             } else {
                 $('.to-top').fadeOut(400);
@@ -25,7 +25,7 @@ $(function () {
 
     jQuery(function ($) {
         $(window).on('scroll', function () {
-            if ($(window).scrollTop() > 300) {
+            if ($(window).scrollTop() > 600) {
                 $('.sp-to-top').fadeIn(400);
             } else {
                 $('.sp-to-top').fadeOut(400);
