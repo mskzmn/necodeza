@@ -280,13 +280,6 @@
 
     <script>
         $(function () {
-
-            // ハンバーガー
-            $('.hamburger,.sp-navi').on('click', function () {
-                $('.sp-navi').fadeToggle();
-                $('.hamburger').toggleClass('open')
-            });
-
             // ローディング画面
 
             $(".loader-wrap").delay(1000).fadeOut(900);
@@ -345,32 +338,6 @@
             });
         });
 
-        // トップへボタン途中から表示
-
-        // pc版
-
-        jQuery(function ($) {
-            $(window).on('scroll', function () {
-                if ($(window).scrollTop() > 300) {
-                    $('.to-top').fadeIn(400);
-                } else {
-                    $('.to-top').fadeOut(400);
-                }
-            });
-        });
-
-        // スマホ版
-
-        jQuery(function ($) {
-            $(window).on('scroll', function () {
-                if ($(window).scrollTop() > 300) {
-                    $('.sp-to-top').fadeIn(400);
-                } else {
-                    $('.sp-to-top').fadeOut(400);
-                }
-            });
-        });
-
         // スライドイン
 
         jQuery(function ($) {
@@ -391,8 +358,6 @@
                 });
             });
         });
-
-
 
     </script>
 

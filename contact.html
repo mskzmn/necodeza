@@ -112,16 +112,11 @@
     <script>
         $(function () {
 
-            $('.hamburger,.sp-navi').on('click', function () {
-                $('.sp-navi').fadeToggle();
-                $('.hamburger').toggleClass('open')
-            });
+            // ローディング画面
+
+            $(".loader").delay(1000).fadeOut(600);
+            $(".sp-loader").delay(1000).fadeOut(600);
         });
-
-        // ローディング画面
-
-        $(".loader").delay(1000).fadeOut(600);
-        $(".sp-loader").delay(1000).fadeOut(600);
     </script>
 </body>
 
