@@ -811,6 +811,24 @@ h2 {
     padding: 15px;
 }
 
+.u-border a{
+    position: relative;
+}
+
+.u-border a::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #776e6b;
+    transition: all 0.5s;
+    transform: scale(0,0);
+}
+
+.u-border a:hover::after{
+    transform: scale(1,1);
+}
+
 .mockup-w{
     padding-bottom: 100px;
 }
