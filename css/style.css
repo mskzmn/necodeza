@@ -1793,6 +1793,11 @@ input[type="text"]:focus{
         display: block;
         object-fit: cover;
         width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        background: #fff;
     }
 
     
