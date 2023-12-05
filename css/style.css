@@ -811,22 +811,29 @@ h2 {
     padding: 15px;
 }
 
-.u-border a{
+.u-border .c-b{
     position: relative;
-}
+} 
 
-.u-border a::after{
+.u-border .c-b::after{
     content: "";
     position: absolute;
     width: 100%;
     height: 1px;
     background: #776e6b;
     transition: all 0.5s;
-    transform: scale(0,0);
+    transform: scale(0,1);
+    transform-origin: center;
 }
 
-.u-border a:hover::after{
-    transform: scale(-1,-1);
+.u-border .c-b:hover::after{
+    transform: scale(1,1);
+}
+
+.s-b::after{
+    position: absolute;
+    bottom: -30%;
+    left: 0%;
 }
 
 .mockup-w{
