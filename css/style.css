@@ -1800,6 +1800,9 @@ input[type="text"]:focus{
         background: #fff;
     }
 
+    .sp-loader img{
+        width: 100%;
+    }
     
 }
 
