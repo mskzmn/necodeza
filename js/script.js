@@ -1,7 +1,7 @@
-$(function () {
+// $(function () {
 
     // ハンバーガーメニュー
-    
+
     $('.hamburger,.sp-navi').on('click', function () {
         $('.sp-navi').fadeToggle();
         $('.hamburger').toggleClass('open')
@@ -32,4 +32,4 @@ $(function () {
             }
         });
     });
-});
+// });
