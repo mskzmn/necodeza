@@ -826,7 +826,7 @@ h2 {
 }
 
 .u-border a:hover::after{
-    transform: scale(1,1);
+    transform: scale(-1,-1);
 }
 
 .mockup-w{
