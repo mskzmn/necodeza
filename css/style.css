@@ -858,12 +858,13 @@ h2 {
     margin-left: 20%;
 }
 
-.mockup-gazou p{
+.m-gazou{
     position: relative;
     transition: all .1s;
+    animation: m-gazou 3s infinite;
 }
 
-.mockup-gazou p:hover{
+.m-gazou:hover{
     background: #C8BDB4;
     opacity: 1;
 }
@@ -877,7 +878,7 @@ h2 {
     right: 0;
 }
 
-.mockup-gazou p span{
+.m-gazou span{
     position: absolute;
     top: 13%;
     left: 5%;
@@ -886,7 +887,7 @@ h2 {
     font-feature-settings: initial;
 }
 
-.mockup-gazou p:hover span{
+.m-gazou:hover span{
     opacity: 1;
     color: #595653;
 }
