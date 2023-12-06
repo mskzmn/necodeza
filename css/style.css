@@ -903,6 +903,10 @@ h2 {
     display: none;
 }
 
+.m-logo{
+    animation: m-logo 3s infinite;
+}
+
 .m-logo img{
     width: 300px;
     padding: 50px 100px;
