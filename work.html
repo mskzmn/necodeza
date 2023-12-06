@@ -60,7 +60,7 @@
     <div class="mockup-w">
         <p class="ear"><img src="illust/mudai127.png" alt=""></p>
         <div id="bunner" class="mockup-gazou">
-            <p>
+            <p class="fadeIn">
                 <span>ハンバーガーバナー</span><a href="workbnf.html"><img src="mockup/bunner0302.jpg" alt="バナー"></a>
             </p>
             <div class="sp-title">
@@ -221,6 +221,27 @@
 
             $(".loader").delay(1000).fadeOut(600);
             $(".sp-loader").delay(1000).fadeOut(600);
+        });
+
+        // スライドイン
+
+        jQuery(function ($) {
+            $(window).on('scroll', function () {
+
+                var box = $('.fadeIn');
+                var animated = 'animated';
+
+                box.each(function () {
+
+                    var boxOffset = $(this).offset().top;
+                    var scrollPos = $(window).scrollTop();
+                    var wh = $(window).height();
+
+                    if (scrollPos > boxOffset - wh + 100) {
+                        $(this).addClass(animated);
+                    }
+                });
+            });
         });
     </script>
     <script src="js/script.js"></script>
