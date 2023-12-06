@@ -343,7 +343,7 @@ padding-top: 50px;
 
 .fadeIn {
     transform: translate3d(0, 50px, 0);
-    transition: 1s;
+    transition: 2s;
     opacity: 0;
 }
 
