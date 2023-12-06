@@ -869,15 +869,6 @@ h2 {
     opacity: 1;
 }
 
-.mockup-title{
-    margin-top: 15%;
-    width: 41.1vw;
-    height: 70px;
-    background-color: #c6beba;
-    position: absolute;
-    right: 0;
-}
-
 .m-gazou span{
     position: absolute;
     top: 13%;
@@ -890,6 +881,15 @@ h2 {
 .m-gazou:hover span{
     opacity: 1;
     color: #595653;
+}
+
+.mockup-title{
+    margin-top: 15%;
+    width: 41.1vw;
+    height: 70px;
+    background-color: #c6beba;
+    position: absolute;
+    right: 0;
 }
 
 .mockup-title span{
@@ -910,6 +910,31 @@ h2 {
 .m-logo img{
     width: 300px;
     padding: 50px 100px;
+}
+
+.m-logo{
+    position: relative;
+    transition: all .1s;
+    animation: m-gazou 3s infinite;
+}
+
+.m-logo:hover{
+    background: #C8BDB4;
+    opacity: 1;
+}
+
+.m-logo span{
+    position: absolute;
+    top: 13%;
+    left: 5%;
+    opacity: 0;
+    writing-mode: vertical-rl;
+    font-feature-settings: initial;
+}
+
+.m-logo:hover span{
+    opacity: 1;
+    color: #595653;
 }
 
 .mockup-title h2 {
